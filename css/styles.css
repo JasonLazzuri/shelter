@@ -1,9 +1,9 @@
 .pet{
   margin: 10px;
   border: 6px solid #5f708c;
-  padding: 20px;
-  float: left;
-
+  padding: 10px;
+  display:inline-block;
+  text-align: left;
 }
 
 .pet img{
@@ -12,17 +12,28 @@
 
 }
 
-.pet ul{
-  font: 14px sans-serif;
+.pet_info {
   border: 2px solid #5f708c;
-  margin: 1px;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding: 5px;
   text-align: left;
 }
 
 body {
   background-color: #bad0f4;
-  text-align: center;
+}
 
+#center {
+  font-family: "arial";
+  color: #425972;
+  text-align: center;
+}
+
+#center h1 {
+  text-shadow: 2px 2px #656668;
+}
+
+@media screen and (max-width: 768px) {
+  .pet {
+      font
+  }
 }
