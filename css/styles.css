@@ -1,6 +1,6 @@
 .pet{
   margin: 10px;
-  border: 10px solid black;
+  border: 6px solid #5f708c;
   padding: 20px;
   float: left;
 
@@ -9,5 +9,20 @@
 .pet img{
   width: 300px;
   height: 300px;
+
+}
+
+.pet ul{
+  font: 14px sans-serif;
+  border: 2px solid #5f708c;
+  margin: 1px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: left;
+}
+
+body {
+  background-color: #bad0f4;
+  text-align: center;
 
 }
