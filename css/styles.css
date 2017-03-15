@@ -1,0 +1,13 @@
+.pet{
+  margin: 10px;
+  border: 10px solid black;
+  padding: 20px;
+  float: left;
+
+}
+
+.pet img{
+  width: 300px;
+  height: 300px;
+
+}
